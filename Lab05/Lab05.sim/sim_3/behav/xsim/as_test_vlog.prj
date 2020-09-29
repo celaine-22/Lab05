@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Lab05.srcs/sources_1/new/halfadder.sv" \
+"../../../../Lab05.srcs/sources_1/new/fulladder.sv" \
+"../../../../Lab05.srcs/sources_1/new/addsub3.sv" \
+"../../../../Lab05.srcs/sim_3/new/as_test.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

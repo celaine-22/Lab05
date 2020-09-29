@@ -4,4 +4,6 @@ May 27 2020
 20:09:33
 C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
 C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.srcs/sim_1/new/halfadder_test.sv,1600985066,systemVerilog,,,,halfadder_test,,,,,,,,
-C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.srcs/sources_1/new/halfadder.sv,1600984204,systemVerilog,,C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.srcs/sim_1/new/halfadder_test.sv,,halfadder,,,,,,,,
+C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.srcs/sources_1/new/addsub.sv,1600989703,systemVerilog,,C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.srcs/sim_1/new/halfadder_test.sv,,addsub,,,,,,,,
+C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.srcs/sources_1/new/fulladder.sv,1600988973,systemVerilog,,C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.srcs/sources_1/new/addsub.sv,,fulladder,,,,,,,,
+C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.srcs/sources_1/new/halfadder.sv,1600984204,systemVerilog,,C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.srcs/sources_1/new/fulladder.sv,,halfadder,,,,,,,,

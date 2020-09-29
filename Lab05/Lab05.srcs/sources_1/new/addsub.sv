@@ -23,25 +23,26 @@
 module addsub(
     input [1:0] a,
     input [1:0] b,
-    output [1:0] sum,
     input mode,
+    output [1:0] sum,
     output cbout
     );
     
     wire c1, c2;
     wire [1:0] b_n;
     
-    assign b_n = ~b;
+    assign b_n[0] = b[0] ^ mode;
+    assign b_n[1] = b[1] ^ mode;
     
     fulladder fa0(
-    .ain(a[0]) , .bin(b[0]), .cin(mode),
+    .ain(a[0]) , .bin(b_n[0]), .cin(mode),
     .cout(c1), .sout(sum[0])
     );
     
     fulladder fa1(
-    .ain(a[1]) , .bin(b[1]), .cin(mode),
+    .ain(a[1]) , .bin(b_n[1]), .cin(c1),
     .cout(c2), .sout(sum[1])
     );
     
-    assign cbout = c1 | c2;
+    assign cbout = c2 ^ mode;
 endmodule

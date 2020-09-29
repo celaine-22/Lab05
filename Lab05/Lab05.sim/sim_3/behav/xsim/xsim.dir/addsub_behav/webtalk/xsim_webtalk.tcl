@@ -1,6 +1,6 @@
-webtalk_init -webtalk_dir C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.sim/sim_1/behav/xsim/xsim.dir/halfadder_test_behav/webtalk/
+webtalk_init -webtalk_dir C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.sim/sim_3/behav/xsim/xsim.dir/addsub_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Thu Sep 24 17:57:13 2020" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Mon Sep 28 23:24:36 2020" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2020.1 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2902540" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "2b2a8a1c-25fc-4328-827c-0f29dc6613ac" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "fd0930d575164cc2ab3ae072afbc209d" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "5" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "30" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Windows Server 2016 or Windows 10" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz" -context "user_environment"
@@ -24,9 +24,9 @@ webtalk_add_data -client project -key system_ram -value "34.000 GB" -context "us
 webtalk_register_client -client xsim
 webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key trace_waveform -value "true" -context "xsim\\usage"
-webtalk_add_data -client xsim -key runtime -value "40 ns" -context "xsim\\usage"
+webtalk_add_data -client xsim -key runtime -value "1 us" -context "xsim\\usage"
 webtalk_add_data -client xsim -key iteration -value "0" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Time -value "0.03_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Memory -value "6784_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 3978354984 -regid "" -xml C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.sim/sim_1/behav/xsim/xsim.dir/halfadder_test_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.sim/sim_1/behav/xsim/xsim.dir/halfadder_test_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.sim/sim_1/behav/xsim/xsim.dir/halfadder_test_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Simulation_Time -value "0.01_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Memory -value "6036_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 347545376 -regid "" -xml C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.sim/sim_3/behav/xsim/xsim.dir/addsub_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.sim/sim_3/behav/xsim/xsim.dir/addsub_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/Celaine_Hornsby1/Documents/GitHub/Lab05/Lab05/Lab05.sim/sim_3/behav/xsim/xsim.dir/addsub_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

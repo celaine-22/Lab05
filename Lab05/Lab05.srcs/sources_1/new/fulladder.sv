@@ -40,5 +40,5 @@ module fulladder(
     .c(c2), .s(sout)
     );
     
-    assign cout = c1 | c2;
+    assign cout = c1 ^ c2;
 endmodule
